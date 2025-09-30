@@ -29,12 +29,38 @@ h1, h2, h3 {
 header {
   background: var(--primary);
   color: white;
-  text-align: center;
   padding: 20px 0;
 }
 
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
 header nav {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 header nav a {
