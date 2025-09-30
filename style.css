@@ -1,0 +1,86 @@
+/* Colores institucionales */
+:root {
+  --primary: #002f6c; /* azul oscuro */
+  --secondary: #f4b400; /* amarillo/dorado */
+  --light: #f5f5f5;
+  --dark: #333;
+}
+
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+h1, h2, h3 {
+  color: var(--primary);
+}
+
+/* Header */
+header {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav {
+  margin-top: 15px;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: var(--secondary);
+}
+
+/* Secciones */
+.section {
+  padding: 40px 0;
+}
+
+.bg-light {
+  background: var(--light);
+}
+
+/* Tarjetas */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
