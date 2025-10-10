@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LEP INGENIERÍA S.A.S</title>
+
+  <!-- Fuente moderna (Montserrat) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Enlace al CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Encabezado -->
   <header>
-    <div class="container header-flex">
+    <div class="header-flex">
       <div class="logo-container">
-        <img src="assets/logo.png" alt="Logo LEP INGENIERÍA" class="logo">
-        <div>
+        <img src="assets/logoLEP.png" alt="Logo LEP INGENIERÍA" class="logo">
+        <div class="empresa-nombre">
           <h1>LEP INGENIERÍA S.A.S</h1>
           <p>Soluciones integrales en ingeniería civil</p>
         </div>
@@ -25,15 +30,20 @@
     </div>
   </header>
 
-  <!-- Sección Quiénes Somos -->
+  <!-- Imagen de portada de Quiénes Somos -->
+  <div class="banner-nosotros">
+    <img src="assets/QuienesSomos.jpg" alt="Quiénes Somos - LEP INGENIERÍA">
+  </div>
+
+    <!-- Sección Quiénes Somos -->
   <section id="nosotros" class="section">
     <div class="container">
       <h2>Quiénes Somos</h2>
       <p>
-        Somos una empresa con más de 15 años de experiencia ofreciendo soluciones 
-        de ingeniería civil en los sectores público y privado. Nos caracterizamos 
-        por la responsabilidad, honestidad y cumplimiento de las normas legales, 
-        ambientales y técnicas vigentes.
+        Somos una empresa con más de 15 años de experiencia ofreciendo soluciones integrales de ingeniería civil en los sectores público y privado. 
+        Nos caracterizamos por la responsabilidad, honestidad y cumplimiento de las normas legales, ambientales y técnicas vigentes. 
+        En LEP INGENIERÍA S.A.S trabajamos bajo los más altos estándares de calidad, promoviendo la innovación y la sostenibilidad en cada uno de nuestros proyectos. 
+        Nuestro compromiso es garantizar la seguridad estructural, el desarrollo urbano eficiente y la satisfacción de nuestros clientes mediante la ejecución de obras que aportan valor y confianza.
       </p>
     </div>
   </section>
@@ -43,26 +53,65 @@
     <div class="container">
       <h2>Servicios</h2>
       <div class="cards">
+
         <div class="card">
+          <img src="assets/obras-civiles.jpg" alt="Obras Civiles">
           <h3>Obras Civiles</h3>
-          <p>Edificaciones, acueducto, alcantarillado, muros de contención, urbanismo.</p>
+          <p>Edificaciones, acueducto, alcantarillado, muros de contención y urbanismo, cumpliendo con las normas técnicas y de seguridad vigentes.</p>
         </div>
+
         <div class="card">
+          <img src="assets/mitigacion.jpg" alt="Obras de Mitigación">
           <h3>Obras de Mitigación</h3>
-          <p>Estabilización de taludes, geoceldas, hidrosiembra, anclajes, pilotaje.</p>
+          <p>Estabilización de taludes, control de erosión, geoceldas, hidrosiembra, anclajes y sistemas de drenaje para protección ambiental.</p>
         </div>
+
         <div class="card">
+          <img src="assets/consultoria.jpg" alt="Consultoría">
           <h3>Consultoría</h3>
-          <p>Estudios de suelos, diseños estructurales, hidráulicos y arquitectónicos.</p>
+          <p>Asesoría técnica en ingeniería civil, diseño estructural, hidráulico y arquitectónico con profesionales altamente calificados.</p>
         </div>
+
         <div class="card">
+          <img src="assets/innovacion.jpg" alt="Innovación Tecnológica">
           <h3>Innovación Tecnológica</h3>
-          <p>Protección catódica, puesta a tierra, levantamientos topográficos.</p>
+          <p>Implementación de soluciones tecnológicas en protección catódica, puesta a tierra y monitoreo de estructuras.</p>
         </div>
+
+        <!-- NUEVAS 5 CARTAS ACTUALIZADAS -->
+        <div class="card">
+          <img src="assets/estudio-suelo.jpg" alt="Estudios de Suelo">
+          <h3>Estudios de Suelo</h3>
+          <p>Realizamos estudios geotécnicos completos para determinar la capacidad portante, estratigrafía del terreno y garantizar la seguridad de las estructuras.</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/diseno.jpg" alt="Diseños (modelo AutoCAD)">
+          <h3>Diseños </h3>
+          <p>Elaboramos planos estructurales, hidráulicos y arquitectónicos en AutoCAD, optimizando la precisión y eficiencia en cada proyecto.</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/topografia.jpg" alt="Levantamientos Topográficos">
+          <h3>Levantamientos Topográficos</h3>
+          <p>Ofrecemos servicios topográficos con tecnología moderna para levantamientos, nivelaciones y georreferenciaciones precisas.</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/pintura-fachada.jpg" alt="Pinturas de Fachada">
+          <h3>Pinturas de Fachada</h3>
+          <p>Brindamos soluciones de pintura y mantenimiento de fachadas con materiales duraderos, resistentes a la intemperie y de alta calidad estética.</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/obras-urbanismo.jpg" alt="Obras de Urbanismo">
+          <h3>Obras de Urbanismo</h3>
+          <p>Diseño, planeación y ejecución de proyectos urbanos que promueven la movilidad, el embellecimiento y el desarrollo sostenible de la comunidad.</p>
+        </div>
+
       </div>
     </div>
   </section>
-
   <!-- Sección Contacto -->
   <section id="contacto" class="section">
     <div class="container">
@@ -77,5 +126,22 @@
   <footer>
     <p>&copy; 2025 LEP INGENIERÍA S.A.S - Todos los derechos reservados</p>
   </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/573133214738?text=Hola%20quisiera%20más%20información%20sobre%20los%20servicios%20de%20LEP%20INGENIERÍA%20S.A.S" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="assets/whatsapp.png" alt="WhatsApp">
+  </a>
+
+  <!-- Botón flotante de Correo -->
+  <a href="mailto:lepingenieriasas@gmail.com?subject=Consulta%20sobre%20servicios%20de%20LEP%20Ingeniería&body=Hola%2C%20quisiera%20obtener%20más%20información%20sobre%20sus%20servicios." 
+     class="email-float" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="assets/email.png" alt="Correo Electrónico">
+  </a>
+
 </body>
 </html>
